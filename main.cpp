@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main(int argc, char **argv) {
-	if (argc != 4) 
+    if (argc != 4) 
         return 0;
     string tipo = argv[1];
     ifstream entrada(argv[2]);
